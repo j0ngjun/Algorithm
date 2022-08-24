@@ -6,7 +6,7 @@ public class L20220823_234 {
     /**
      * Definition for singly-linked list.
      */
-     public class ListNode {
+    public class ListNode {
         int val;
         ListNode next;
         ListNode() {}
