@@ -1,6 +1,6 @@
-package LeetCode;
+package LeetCode.L20220824;
 
-public class L20220824_1582 {
+public class P1_1582 {
     // 같은 행, 같은 열에 1이 1개만 있을 경우 +1 반환
     class Solution {
         public int numSpecial(int[][] mat) {

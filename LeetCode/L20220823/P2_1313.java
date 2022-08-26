@@ -1,9 +1,9 @@
-package LeetCode;
+package LeetCode.L20220823;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class L20220823_1313 {
+public class P2_1313 {
     class Solution {
         public int[] decompressRLElist(int[] nums) {
             List<Integer> list = new ArrayList<>();

@@ -1,10 +1,10 @@
-package BaekJoon;
+package BaekJoon.B20220824;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class B20220824_2447 {
+public class P1_2447 {
     static char[][] arr;
 
     public static void main(String[] args) throws IOException {

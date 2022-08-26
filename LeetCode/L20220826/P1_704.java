@@ -1,6 +1,6 @@
-package LeetCode;
+package LeetCode.L20220826;
 
-public class L20220826_704 {
+public class P1_704 {
     class Solution {
         public int search(int[] nums, int target) {
             int low = 0;

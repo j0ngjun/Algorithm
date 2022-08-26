@@ -1,6 +1,6 @@
-package LeetCode;
+package LeetCode.L20220824;
 
-public class L20220824_189 {
+public class P2_189 {
     // 주어진 k값 만큼 행렬 미루기
     class Solution {
         public void rotate(int[] nums, int k) {

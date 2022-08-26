@@ -1,8 +1,8 @@
-package LeetCode;
+package LeetCode.L20220823;
 
 import java.util.Stack;
 
-public class L20220823_234 {
+public class P1_234 {
     /**
      * Definition for singly-linked list.
      */

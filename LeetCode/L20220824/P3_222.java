@@ -1,6 +1,6 @@
-package LeetCode;
+package LeetCode.L20220824;
 
-public class L20220824_222 {
+public class P3_222 {
     /**
      * Definition for a binary tree node.
      */

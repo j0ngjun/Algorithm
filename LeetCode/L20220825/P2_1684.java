@@ -1,9 +1,9 @@
-package LeetCode;
+package LeetCode.L20220825;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class L20220825_1684 {
+public class P2_1684 {
     // allowed에 포함된 문자로 이루어져있는 words의 갯수 반환
     class Solution {
         public int countConsistentStrings(String allowed, String[] words) {

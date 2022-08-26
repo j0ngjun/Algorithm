@@ -1,6 +1,6 @@
-package LeetCode;
+package LeetCode.L20220826;
 
-public class L20220826_278 {
+public class P2_278 {
     /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 

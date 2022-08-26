@@ -1,9 +1,9 @@
-package LeetCode;
+package LeetCode.L20220825;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class L20220825_383 {
+public class P1_383 {
     // magazine에 포함되어 있는 문자로 ransomNote의 문장을 만들 수 있는지
     class Solution {
         public boolean canConstruct(String ransomNote, String magazine) {
