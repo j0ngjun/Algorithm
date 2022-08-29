@@ -8,8 +8,8 @@ public class P1_2447 {
     static char[][] arr;
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bf  = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(bf.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
 
         arr = new char[N][N];
 
@@ -51,11 +51,8 @@ public class P1_2447 {
         for(int i = x; i < x + N; i += size) {
             for(int j = y; j < y + N; j += size) {
                 count++;
-                if (count == 5) { // 공백 칸일 경우
-                    recur(i, j, size, true);
-                } else {
-                    recur(i, j, size, false);
-                }
+                // 공백 칸일 경우
+                recur(i, j, size, count == 5);
             }
         }
     }
